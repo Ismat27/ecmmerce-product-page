@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="abc">
+      <div class="logo">
+        <img class="menu-icon menu-toggle btn" data-action="add" src="/images/icon-menu.svg" alt="">
+        <a href="#"><img src="/images/logo.svg" alt=""></a>
+      </div>
+      <div class="nav">
+        <img class="close-menu-icon menu-toggle btn" data-action="remove" src="/images/icon-close.svg" alt="">
+        <nav>
+          <ul class="navs">
+            <li class="nav-item"><a class="nav-link" href="#">Collections</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Men</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="profile">
+      <div class="cart-items">
+        <small class="cart-qty">0</small>
+        <img id="cart" class="cart btn" src="/images/icon-cart.svg" alt="">
+      </div>
+      <img class="profile-img btn" src="/images/image-avatar.png" alt="">
+    </div>
+  </header>
+  <div class="orders">
+    <p class="bb">Cart</p>
+    <div class="order-items">
+    </div>
+    <button class="btn checkout-btn">checkout</button>
+  </div>
+  <div class="overlay-container">
+    <div class="product-images">
+      <div class="main-image">
+        <button class="close-overlay btn"><img src="/images/icon-close.svg" alt=""></button>
+        <img class="display-imagev" src="/images/image-product-1.jpg" alt="">
+        <button class="btn arrow next-arrow update-img" data-direction="next"><img src="/images/icon-next.svg" alt=""></button>
+        <button class="btn arrow prev-arrow update-img" data-direction="prev"><img src="/images/icon-previous.svg" alt=""></button>
+      </div>
+      <div class="thumbnail-images">
+        <img class="btn update-img" data-direction="0" src="/images/image-product-1-thumbnail.jpg" alt="">
+        <img class="btn update-img" data-direction="1" src="/images/image-product-2-thumbnail.jpg" alt="">
+        <img class="btn update-img" data-direction="2" src="/images/image-product-3-thumbnail.jpg" alt="">
+        <img class="btn update-img" data-direction="3" src="/images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="product-images">
+      <div class="main-image">
+        <img class="display-image" id="show-overlay" src="/images/image-product-1.jpg" alt="">
+        <button class="btn arrow next-arrow update-img" data-direction="next"><img src="/images/icon-next.svg" alt=""></button>
+        <button class="btn arrow prev-arrow update-img" data-direction="prev"><img src="/images/icon-previous.svg" alt=""></button>
+      </div>
+      <div class="thumbnail-images">
+        <img class="btn update-img" data-direction="0" src="/images/image-product-1-thumbnail.jpg" alt="">
+        <img class="btn update-img" data-direction="1" src="/images/image-product-2-thumbnail.jpg" alt="">
+        <img class="btn update-img" data-direction="2" src="/images/image-product-3-thumbnail.jpg" alt="">
+        <img class="btn update-img" data-direction="3" src="/images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </div>
+    <div class="product-info">
+      <p class="company">sneaker company</p>
+      <h2 class="product-edition">Fall Limited Edition Sneaker</h2>
+      <p class="product-desc">These low profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+      <div class="price">
+        <div class="discount">
+          <strong class="discount-price">$125.00</strong>
+          <span class="discount-rate">50%</span>
+        </div>
+        <p class="actual-price">$250</p>
+      </div>
+      <div class="user-actions">
+        <div class="change-qty">
+          <img class="update-qty btn" data-action="remove" src="/images/icon-minus.svg" alt="">
+          <span class="order-qty">0</span>
+          <img class="update-qty btn" data-action="add" src="/images/icon-plus.svg" alt="">
+        </div>
+        <button class="add-to-cart btn" data-id="1000" data-name="Fall Limited Edition Sneaker" data-image="image-product-1.jpg" data-price="125.00">
+          <img class="btn" src="/images/icon-cart.svg" alt="">
+          <span>Add to cart</span>
+        </button>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ismail Adegbite</a>.
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>
