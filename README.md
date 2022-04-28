@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ismat27/ecmmerce-product-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution here](https://github.com/Ismat27/ecmmerce-product-page)
+- [View site here](https://fabulous-product.netlify.app/)
 
 ## My process
 
@@ -47,8 +47,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ismail Adegbite](https://github.com/Ismat27)
+- Github - [Ismail Adegbite](https://github.com/Ismat27)
 - Frontend Mentor - [@Ismat27](https://www.frontendmentor.io/profile/Ismat27)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@adegbite_ismail](https://www.twitter.com/adegbite_ismail)
 
 

@@ -170,7 +170,7 @@ const closeOverlayBtn = document.querySelector('.close-overlay')
 const overlayContainer = document.querySelector('.overlay-container')
 const displayImagev = document.querySelector('.display-imagev')
 
-showOverlayBtn.addEventListener('dblclick', function() {
+showOverlayBtn.addEventListener('click', function() {
     overlayContainer.classList.add('visible-overlay')
 })
 
